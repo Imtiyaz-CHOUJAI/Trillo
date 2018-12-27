@@ -1,16 +1,9 @@
 .container {
-    min-width: 120rem;
+    max-width: 120rem;
     margin: 8rem auto;
     background-color: var(--light-gray-color-1);
     box-shadow: var(--dark-shadow);
-
     min-height: 50rem;
-}
-
-.header {
-    height: 7rem;
-    background-color: #fff;
-    border-bottom: var(--light-gray-color-2);
 }
 
 .content {
@@ -23,6 +16,6 @@
 }
 
 .hotel-view {
-    background-color: #fff;
+    background-color: orangered;
     flex: 1;
 }
